@@ -24,7 +24,7 @@
         },
 		{
 			"type": "shell",
-			"label": "run",
+			"label": "build&run",
 			"windows": {
 				"command": "${workspaceFolder}\\src\\main.exe"
 			},
