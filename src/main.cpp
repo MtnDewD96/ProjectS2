@@ -8,7 +8,7 @@ int main( int argc,      // Number of strings in array argv
           char *envp[] )  // Array of environment variable strings
 {
     int count;
-
+    int x = 2.322;
     // Display each command-line argument.
-    cout << "allo";
+    cout << "hello hello";
 }
