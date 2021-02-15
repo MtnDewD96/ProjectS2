@@ -1,0 +1,8 @@
+main: main.o Map.o
+	g++ -o main main.o Map.o
+	
+main.o: main.cpp Map.h
+	g++ main.cpp -g -c
+	
+Map.o: Map.cpp Map.h
+	g++ Map.cpp -g -c
