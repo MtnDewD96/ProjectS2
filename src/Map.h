@@ -1,18 +1,10 @@
+#pragma once
 
-
-#include <iostream>
-
-using namespace std;
-
-class Map
-{
+class Map{
 public:
-    Map(int x, int y);
-    ~Map();
-    friend ostream& operator<<(ostream&, Map const&);
+    Map(int x, int y);       
 private:
-    //MovableObject* objects;
+    //MovableObject object;
     char* layout;
-    int x;
-    int y;
+    
 };

@@ -11,7 +11,6 @@ int main( int argc,      // Number of strings in array argv
 {
     int x = 10;
     int y = 10;
-    Map map = Map(x,y);
-    cout << map;
+
     return 0;
 }
